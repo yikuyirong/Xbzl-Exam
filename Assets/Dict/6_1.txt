@@ -1,0 +1,146 @@
+science|科学
+museum|博物馆
+post office|邮局
+bookstore|书店
+cinema|电影院
+hospital|医院
+crossing|十字路口
+turn|转弯
+left|左；左边
+straight|笔直地
+right|右；右边
+ask|问
+sir|先生
+interesting|有趣的
+Italian|意大利的
+restaurant|餐馆
+pizza|比萨饼
+street|大街；街道
+get|到达
+GPS|全球（卫星）定位系统
+gave|提供；交给
+feature|特点
+follow|跟着
+far|远的，遥远的
+tell|告诉，讲述
+on foot|步行
+by|乘
+bus|公共汽车
+plane|飞机
+taxi|出租汽车
+ship|（大）船
+subway|地铁
+train|火车
+slow|慢的
+down|减少；降低
+slow down|慢下来
+stop|停下来
+Mrs|夫人
+early|早到的
+helmet|头盔
+must|必须
+wear|穿着，佩戴
+attention|注意，注意力
+pay attention to|注意
+traffic|交通
+traffic lights|交通信号灯
+Munich|慕尼黑
+Germany|德国
+Alaska|阿拉斯加州
+sled|雪橇
+fast|快的；迅速的
+ferry|轮渡
+Scotland|苏格兰
+visit|拜访
+film|电影
+see a film|看电影
+trip|旅行
+take a trip|去旅行
+supermarket|超市
+evening|晚上；傍晚
+tonight|今夜；今晚
+tomorrow|明天
+next week|下周
+dictionary|词典
+comic|滑稽的；喜剧的
+comic book|（儿童的）连环画册
+word|单词
+word book|单词书
+postcard|明信片
+lesson|课
+space|太空
+travel|旅行
+half|一半
+price|价格
+Mid-Autumn Festival|中秋节
+together|一起
+get together|聚会
+mooncake 月饼
+poem|诗
+moon|月亮；月球
+studies|学习
+puzzle|谜；智力游戏
+hiking|远足
+pen pal|笔友
+hobby|业余爱好
+jasmine|茉莉
+idea|想法；主意
+Canberra|堪培拉
+amazing|令人惊奇的
+shall|表示征求意见
+goal|射门
+join|加入
+club|俱乐部；社团
+share|分享；共用
+factory|工厂
+worker|工人
+postman|邮递员
+businessman|商人
+police officer|警察
+fisherman|渔民
+scientist|科学家
+pilot|飞行员
+coach|教练
+country|国家
+head teacher|校长
+sea|大海
+stay|保持
+university|大学
+gym|体育馆，健身房
+if|如果
+reporter|记者
+use|使用
+type|打字
+quickly|迅速地
+secretary|秘书
+angry|生气的
+afraid|害怕
+sad|难过的
+worried|担心的；发愁的
+happy|高兴的；快乐的
+see a doctor|看病
+wear|穿；戴
+more|更多的
+deep|深的
+breath|呼吸
+take a deep breath|深深吸一口气
+count|数数
+count to ten|数到十
+chase|追赶
+mice|老鼠
+bad|邪恶的；坏的
+hurt|（使）受伤
+ill|有病；不舒服
+wrong|有毛病；不好的
+should|应当
+feel|感觉；觉得
+well|健康；身体好
+sit|坐
+grass|草坪
+hear|听见
+ant|蚂蚁
+worry|担心；担忧
+stuck|陷住；无法移动
+mud|泥
+pull|拉；拽
+everyone|每人；人人

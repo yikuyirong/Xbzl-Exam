@@ -1,0 +1,433 @@
+1.Good morning, Helen!
+2.Hi, Bob!
+
+15. Hi, Cindy! How are you?
+16. I’m fine, thanks. How are you?
+17. I’m OK.
+
+18. What’s this in English?
+19. It’s an orange.
+
+20. What’s this in English?
+21. It’s a map.
+
+23. What’s this in English?
+24. It’s a key.
+25. Spell it, please.
+26. K-E-Y.
+
+27. What’s this?
+28. It’s a quilt.
+29. Spell it, please.
+30. Q-U-I-L-T.
+
+31. What’s this in English?
+32. It’s a pen.
+33. Spell it, please.
+34. P-E-N.
+
+35. What’s this?
+36. It’s V.
+37. What color is it?
+38. It’s red.
+
+39. What’s this?
+40. It’s Z.
+41. What color is it?
+42. It’s black and white.
+
+43. What’s this in English?
+44. It’s a key.
+45. What color is it?
+46. It’s yellow.
+
+47. What’s this?
+48. It’s a ruler.
+49. What’s color is it?
+50. It’s a blue.
+
+51. What’s this?
+52. It’s a pen.
+
+53. What color is it?
+54. It’s red.
+
+55. Hello. I’m Mary.
+56. Hi, Mary. I’m Jim.
+
+57. What’ your name?
+58. Alan.
+
+59. My name’s Jenny.
+60. I’m Gina. Nice to meet you.
+
+61. Hello. What’s your name?
+62. My name’s Jenny.
+63. I’m Tony.
+64. Nice to meet you, Tony.
+
+65. What’s his name?
+66. His name is Tony.
+67. And what’s her name?
+68. Her name is Jenny.
+
+69. Excuse me, are you Mark?
+70. Yes, I am.
+
+71. I’m Bob. Nice to meet you.
+72. Nice to meet you, too.
+
+73. Good morning, boys and girls. My name’s Linda. What’s your name?
+74. My name’s Jim.
+75. And what’s your name?
+76. My name’s Mary.
+
+77. What’s your telephone number, Tony?
+78. It’s 278-6926.
+79. 2-7-8-6-9-2-6.Thanks.
+
+80. Hello, what’s your name?
+81. My name’s Tom.
+82. What’s your phone number, Tom?
+83. It’s 278-7928.
+
+84. Hi, Linda!
+85. Hello, Tony!
+86. Linda, what’s your phone number?
+87. It’s 929-3160.
+
+
+90. Is this your ruler?
+91. No, it isn’t. It’s her ruler.
+
+92. Is that your backpack?
+93. No, it isn’t. It’s his backpack.
+
+94. Is this your pencil?
+95. Yes, it is. It’s my pencil.
+
+96. Excuse me, Sonia. Is this your pencil?
+97. Yes, thank you. And that is my eraser.
+
+98. And Sonia, is this your ruler?
+99. NO, it isn’t. It’s her ruler.
+100. OK, and this is my book. And this is your pencil case, Jane.
+
+101. I’m looking for my watch. 
+102. Ok. Is this your watch?
+103. No, it isn’t. That’s my watch. 
+104. Here you are.
+105. And that’s my ID card.
+106. OK. What’s your name?
+107. Kelsey.
+
+108. That’s my pen.
+109. This?
+110. Yes… and that’s my baseball. 
+111. All right. What’s your name? 
+112. Mike.
+113. OK. Here’s your baseball. 
+114. Thank you.
+
+117. This is my family. Those are my two brothers. And that’s my sister.
+118. This is my mother. Mom, this is Lin Hai!
+119. Nice to meet you!
+120. Nice to meet you, Lin Hai! 
+121. And these are my grandparents. 
+122. Hi, Lin Hai!
+123. Hello!
+124. And this is my sister, Mary, and this is my brother, jim.
+125. This is my aunt, and this is my uncle.
+126. And is she your cousin?
+127. Yes, and those are her friends. 
+
+130. Where are my books?
+131. They’re on the sofa.
+132. How about my pencil case and my baseball?
+133. They’re in your backpack.
+134. OK. And where’s my computer game?
+135. Your computer game? It’s under your bed.
+136. Great. Now where are my keys? 
+137. Oh. They’re on the dresser. 
+138. Hey, sally.
+139. Yes?
+140. Is my computer game on the table? 
+141. No, it isn’t. It’s on the bookcase. 
+142. Oh, Ok. How about my books? Are they on the bookcase, too?
+143. No, they aren’t They’re on the chair. 
+144. Oh . So, where’s my pencil case? 
+145. It’s under the sofa.
+146. And where’s my backpack?
+147. It’s under the table. And your baseball is under the chair.
+148. Oh, Ok. And where are Mom’s keys?
+149. The keys? They’re on the table. 
+150. Hello.
+151. Hi, Mom. I need some things for class this afternoon. Can you bring them to school for me, please?
+152. Sure. I need my math book…
+153. Math book? Where’s your math book?
+154. Oh, it’s on the dresser. And I need my ruler. It’s under the bed. And my notebook.
+155. Where’s your notebook?
+156. Uh, I don’t know. Oh … yeah, it’s on the bed. And my CDs. They’re on the bookcase.
+157. OK.
+158. And the video tape. It’s on the table. I need to take it back to the store after school.
+159. OK. I’ll meet you at twelve o’clock. 
+
+162. Do you have a computer game? 
+163. No, I don’t.
+164. Do you have a ping-pong bat? 
+165. Yes, I do.
+166. Do you have a soccer ball, Peter? 
+167. No, I don’t.
+168. Does your brother Alan have one? 
+169. Yes, he does.
+170. Hi, Mike.
+171. Hi, Ed.
+172. I want to play basketball. Do you have a basketball?
+173. Yes, I do.
+174. Great!
+175. Hi, Sally.
+176. Hi, Jane.
+177. Sally, this is my friend, June. 
+178. Hi, June. Nice to meet you. 
+179. Nice to meet you, Sally.
+180. Let’s play tennis. Do you have a tennis racket, Jane?
+181. Sorry, I don’t.
+182. Do you have a volleyball, Barry? 
+183. No, I don’t. But my brother does. Let’s go and find him.
+184. Let’s play computer games!
+185. That sounds interesting, but I don’t have a computer.
+186. Well, Do you have a volleyball? 
+187. Yes.
+188. Then let’s play volleyball.
+189. Oh, volleyball is so difficult… 
+190. Ok, let’s watch TV.
+191. That sounds boring. Hmmm… Let’s play soccer! Do you have a soccer ball? 
+192. No, I don’t.
+193. Oh. Well, do you have a basketball? 
+194. Yes, I do. Let’s play basketball! 
+195. That sounds fun!
+
+197. Do you like bananas?
+198. Yes I do.
+199. Do you like salad?
+200. No, I don’t.
+201. Do you like oranges?
+202. Yes, I do.
+203. I like hamburgers. Do you like hamburgers?
+204. Yes, I do.
+205. Do you like broccoli?
+206. No, I don’t like broccoli.
+207. Let’s have ice cream.
+208. Oh, no.
+209. No?
+210. I don’t like ice cream.
+211. Do you like carrots?
+212. Yes, I do. I like all vegetables.
+213. How about broccoli? Do you like broccoli?
+214. Yes, I do. It’s great! Do you like vegetables?
+215. No, I don’t like vegetables. Well , only salad. I like salad. But I like fruit. I like bananas, oranges…
+216. How about apples? I don’t like apples!
+217. Yes, I like apples. And you know what I really like?
+218. What?
+219. Ice cream!
+220. Hi! My name is Nick.
+221. Hi, Nick! I’m Jane.
+222. Nice to meet you, Jane.
+223. What’s your last name, Nick? 
+224. My last name is Smith.
+225. Hi, Mon! This is my friend, Jane. 
+226. Hello, Jane!
+227. Hello, Mrs Smith!
+228. Do you like your class, Nick? 
+229. Yeah! My class is great!
+230. Let’s play basketball.
+231. I don’t like basketball.
+232. Do you have a computer game? 
+233. Yes, I do.
+234. Let’s play computer games! 
+235. Where’s my computer game? 
+236. Is it in your bag?
+237. No, it isn’t.
+238. Is it under the bed?
+239. Yes, it is.
+
+241. How much is the hat?
+242. The hat is six dollars.
+243. And how much are the shorts? 
+244. Oh, they’re eight dollars.
+245. And the sweater? How much is the sweater?
+246. Let’s see. The sweater is nine dollars.
+247. How much is the green T-shirt? 
+248. It is eight dollars.
+249. How much is the back bag? 
+250. it is two dollars.
+251. How much are the red shorts? 
+252. They are nine dollars.
+253. I like this green sweater. How much is it?
+254. It’s seven dollars.
+255. I like big blue hats. Do you have one?
+256. Yes. I have this one here. 
+257. How much is it?
+258. It’s five dollars.
+259. I like those long, blue and yellow socks. How much are they?
+260. They’re only two dollars.
+261. 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+262. Oh, look. I like that blue . I like these socks.
+263. Oh, no I don’t like red.
+264. Do you like this?
+265. Mmm, yes, I do, but it’s eleven dollars.
+266. Oh. How much is the green sweater?
+267. It’s twenty dollars. But you have a green sweater.
+268. Mmm.
+269. Oh, look at these4 shorts.
+270. Oh, yes, I like those. How much are they?
+271. Only sixteen dollars.
+272. OK, I’ll take those.
+
+274. January, February March, April, May, June, July, August, September, October, November, December
+275. When is your birthday, Vera? 
+276. My birthday is October tenth. 
+277. When is your birthday, Mary?
+278. My birthday is January fifteenth. 
+279. When is your birthday, Jeff? 
+280. My birthday is June fourth.
+281. first, second, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth, eleventh, twelfth, thirteenth, fourteenth fifteenth, sixteenth, seventeenth, eighteenth, nineteenth, twentieth, twenty-first, twenty-second, twenty-seventh, twenty-eighth, twenty –ninth, thirtieth, thirty-first
+282. Now, let’s fill in the class birthday calendar. Leila, when’s your birthday?
+283. It’s September 5, Mr Fisher.
+284. Oh, OK. And how about you, Nick?
+285. July 4.
+286. And Robert?
+287. My birthday is January 17.
+288. January 17. OK . And Jane , when’s your birthday?
+289. August 22.
+290. Hey, Sally. Can you help me fill inmy calendar?
+291. Sure, Joe.
+292. When is your birthday party?
+293. My birthday party is October 5.
+294. OK, and when is the basketball game?
+295. The basketball game? Oh, it’s October 2.
+296. Good. And, um, how about the school trip?
+297. The school trip is September 26 thand 27.
+298. And when’s the speech contest?
+299. Oh, that’s Friday, September 29.
+300. Great.
+
+303. Do you want to go to a movie? 
+304. Yeah, I do.
+305. Do you want to go to an action movie?
+306. No, I don’t. I want to go to a comedy.
+307. Do you want to go to an action movie?
+308. No, I don’t like action movies. 
+309. What kind of movies do you like? 
+310. I like documentaries. What kind of movies do you like?
+311. I like documentaries, too, and comedies. I don’t like thrillers.
+312. You don’t?
+313. No. They’re scary.
+314. Do you want to go to a movie, Edward?
+315. Yes, that sounds good.
+316. What kind of movies do you like? 
+317. Well, I like comedies because they’re funny. And I think thrillers are great.
+318. How about documentaries?
+319. No. Documentaries are boring. How about you?
+320. I don’t like documentaries, either. And I don’t like thrillers-they’re scary. 
+321. So what kind of movies do you like?
+322. Well, I like action movies. 
+323. You do?
+324. Uh-huh. They’re exciting. And I like Beijing Opera, too. It’s very interesting. My father and I like it a lot.
+
+326. I want to join the music club. 
+327. Oh, can you sing?
+328. Yes, I can.
+329. Can you swim?
+330. No, I can’t/
+331. I want to join the art club. 
+332. Can you paint?
+333. Yes, I can.
+334. What club do you want to join? 
+335. We want to join the chess club. 
+336. Can you play chess?
+337. No, I can’t.
+338. I can.
+339. Here are all the clubs.
+340. What club do you want to join?
+341. I want to join the English club. How about you?
+342. Hmm. I want to join the chess club. Can you play chess?
+343. No, I don’t like chess. Do you like music?
+344. Oh, yes. I can sing and dance. I like music.
+345. Me, too. Let’s join the music club. 
+346. I want some students for the school concert. What can you do, Bill? Can you sing?
+347. No, I can’t. But I can play the guitar. 
+348. You can play the guitar! Good. OK, what can you do, Jennifer?
+349. I can sing and I can play toe drums. 
+350. You can! Great, Jennifer. Can you play the piano?
+351. No, I can’t. Victor can play the piano?
+352. Victor, can you play the piano?
+353. Yeah, I can’t sing or dance, but I can play the piano.
+
+355. What time do you usually get up, Rick?
+356. Um, I usually get up at five o’clock. 
+357. Five o’clock. Wow! And what time do you run?
+358. Um. At six o’clock.
+359. Hmm. And breakfast?
+360. Seven o’clock.
+361. What time do you usually shower? 
+362. Uh, eight o’clock.
+363. What time do you usually go to school?
+364. I usually go to school at nine o’clock.
+365. You have a big family, don’t you , Rick?
+366. Yes, I have two brothers and two sisters.
+367. Wow! How many showers do you have?
+368. We only have one shower. 
+369. Is that difficult?
+370. No, because we have a shower schedule. My brother Bob takes a shower first, at five o’clock.
+371. Wow! That’s early!
+372. Yeah. Then my sister Mary takes a shower at six o’clock. ext my brother Jerry takes a shower at seven o’clock. I take a shower at seven o’clock. I take a shower at eight o’clock. I take a shower at eight o’clock. My sister Alicia at nine o’clock…
+373. Thanks for the interview, Tom. We want to know about your day
+374. OK.
+375. When do you get up?
+376. When do I get up? Hmm. Usually around five o’clock. The I run around dix.
+377. You r4un at six in the morning? 
+378. Uh-huh.
+379. And what time do you eat breakfast?
+380. Breakfast? Usually around seven. And then I usually go to school around eight o’clock.
+381. Wow! And you go home at …? 
+382. Four fifteen in the afternoon.
+383. And what do you do in the evening? 
+384. I do my homework around five thirty. And I eat dinner at seven fifteen. And I go to bed at nine o’clock.
+385. That’s early! But then you get up early.
+386. Uh-huh.
+
+389. What’s your favorite subject?
+390. My favorite subject is science. What’s yours?
+391. Hmm. Well, I like art and math. But my favorite subject is music.
+392. What’s your favorite subject? 
+393. My favorite subject is P.E. 
+394. Why do you like P.E.?
+395. Because it’s fun.
+396. What’s your favorite subject? 
+397. My favorite is P.E.
+398. Why do you like P.E.?
+399. Because it’s fun. How about you? What’s your favorite subject?
+400. Hmm. My favorite subject is music. 
+401. Really? Why?
+402. Because it’s relaxing.
+403. Are you OK, Ming?
+404. No, I’m not. It’s Tuesday and I have biology.
+405. And you don’t like biology?
+406. No. it’s so boring.
+407. So, what’s your favorite subject? 
+408. Oh, history! It’s such fun. I love Friday because we have history in the morning. How about you, Selina? 
+409. Art, I guess. It’s really relaxing. 
+410. When do you have art?
+411. On Monday and Wednesday. How about you, Ken? What’s your favorite subject?
+412. Science. It’s really interesting. I have science class this afternoon. 
+
+413. Review of units 7 -12
+414. Can I help you?
+415. Yes, please. I want a sweater. 
+416. Do you like this blue one? 
+417. Yes, I like it. How much is it? 
+418. Thirty-two dollars.
+419. I’ll take it. Thank you.
+420. You’re welcome.
+421. Can I ask you some questions? 422. Sure. 
