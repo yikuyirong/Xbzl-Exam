@@ -2,3 +2,4 @@
 obj/
 Output/
 Config.xml
+*.csproj

@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\NetStandard20\Xbzl\AliyunUtility\AliyunUtility.csproj" />
+    <ProjectReference Include="..\AliyunUtility\AliyunUtility.csproj" />
   </ItemGroup>
 
   <ItemGroup>

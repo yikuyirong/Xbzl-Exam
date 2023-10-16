@@ -61,7 +61,7 @@ namespace exam
                 else
                 {
                     tasks.Add(exam.Gen(HearingExam.ELx.听英语写汉语));
-                    tasks.Add(exam.Gen(HearingExam.ELx.听英语写汉语));
+                    tasks.Add(exam.Gen(HearingExam.ELx.听汉语写英语));
                 }
 
                 Task.WaitAll(tasks.ToArray());
@@ -168,6 +168,12 @@ namespace exam
 
             var answers = await Task.WhenAll(tasks);
 
+            answers = answers.Select((string r ,int i)=>
+            {
+                return $"Exam {i+1}:\r\n{r}\r\n";
+
+            }).ToArray();
+            
             await File.WriteAllLinesAsync(Path.Combine(path,"answer.txt"), answers);
 
         }
@@ -216,7 +222,7 @@ namespace exam
                 text = $"<speak>{question[0]}<break time='2s' /></speak>";
                 audio.AddRange(await getTtsAsync(text, voices[0]));
 
-                text = $"<speak>{question[0]}<break time='8s' /></speak>";
+                text = $"<speak>{question[0]}<break time='5s' /></speak>";
                 audio.AddRange(await getTtsAsync(text, voices[1]));
 
                 answer.Append($"{i + 1}. {string.Join(" ", question)} ");
