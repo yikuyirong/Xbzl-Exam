@@ -154,7 +154,7 @@ namespace exam
         //生成
         public async Task Gen(ELx lx) 
         {
-            string path = Path.Combine("Output","Hearing",lx.ToString(), DateTime.Now.ToString("yyyyMMddHHmmss"));
+            string path = Path.Combine("Output","Hearing", DateTime.Now.ToString("yyyyMMddHHmm"),lx.ToString());
 
             if (!Directory.Exists(path))
             {
@@ -174,6 +174,8 @@ namespace exam
 
             }).ToArray();
             
+            answers = new string[]{$"{path}\r\n"}.Concat(answers).ToArray();
+
             await File.WriteAllLinesAsync(Path.Combine(path,"answer.txt"), answers);
 
         }
