@@ -1,8 +1,10 @@
 ﻿using CSScripting;
+using Flurl.Util;
 using Hungsum.MyAliyun;
 using Hungsum.Sys.Utility;
 using ICSharpCode.SharpZipLib.Zip;
 using NPOI.SS.Util;
+using PListNet;
 using System.Drawing.Drawing2D;
 using System.Net.Sockets;
 using System.Security.Cryptography.X509Certificates;
@@ -10,6 +12,7 @@ using System.Security.Cryptography.Xml;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
+
 
 namespace exam
 {
@@ -19,7 +22,12 @@ namespace exam
         {
             try
             {
-                //
+
+                // new TempExam().Gen();
+
+                // return;
+                
+
                 Console.Write("请输入姓名[0 翟静逸 1 翟绍祖]：");
                 string name = Console.ReadLine() == "1" ? "翟绍祖" : "翟静逸";
 
@@ -80,25 +88,9 @@ namespace exam
 
     public abstract class Exam
     {
-    }
-
-    /// <summary>
-    /// 听力测试
-    /// </summary>
-
-    public class HearingExam : Exam
-    {
-        public readonly string Name;
-
-        public readonly int ExamCount;
-
-        public readonly int CountPerExam;
-
-        private List<string[]> questions = new List<string[]>();
-
         private AliyunUtil? _util;
 
-        private AliyunUtil util
+        protected AliyunUtil util
         {
             get
             {
@@ -118,6 +110,83 @@ namespace exam
                 return _util;
             }
         }
+
+        protected async Task<byte[]> getTtsAsync(string text, string voice , int speedRate = 0)
+        {
+            var req = new AliyunUtil.YyhcReqest(text, voice, speechRate:speedRate);
+
+            string path = "Cache";
+
+            if (!Directory.Exists(path))
+            {
+                Directory.CreateDirectory(path);
+            }
+
+            string cacheFile = Path.Combine(path, req.ToString());
+
+            if (File.Exists(cacheFile))
+            {
+                return await File.ReadAllBytesAsync(cacheFile);
+            } else
+            {
+                var bs = await util.GetYyhcResultAsync(req);
+
+                await File.WriteAllBytesAsync(cacheFile, bs);
+
+                return bs;
+            }
+        }
+
+
+    }
+
+    public class TempExam : Exam
+    {
+        public TempExam()
+        {
+
+        }
+
+        public void Gen()
+        {
+            string text_of_frank_brown = "<speak>I don't have a soccer ball , but my brother Alan does. We go to the same school and we love soccer. We play it at school with out friends. It's relaxing.<break time='2s' /></speak>";
+
+            string text_of_gina_smith = "<speak>Yes,I do. I have two soccer balls, three volleyballs, four basketballs and five baseballs and bats, I love sports, but I dont't play them --- I only watch them on TV.<break time='2s' /></speak>";
+
+            string text_of_wang_wei = "<speak>No, I don't. Soccer is difficult. I like ping-pong. It's easy for me. I have three ping-pong balls and two ping-pong bats. After class, I play ping-pong with my classmates.</speak>";
+
+            var result = Task.WhenAll(
+                this.getTtsAsync(text_of_frank_brown,"Brian",-100),
+                this.getTtsAsync(text_of_gina_smith,"Donna",-100),
+                this.getTtsAsync(text_of_wang_wei,"Andy",-100)).Result;
+
+            List<byte> all = new List<byte>();
+
+            foreach(var buffer in result)
+            {
+                all.AddRange(buffer);
+
+            }
+
+            File.WriteAllBytes("Result.mp3",all.ToArray());
+
+        }
+
+    }
+
+    /// <summary>
+    /// 听力测试
+    /// </summary>
+
+    public class HearingExam : Exam
+    {
+        public readonly string Name;
+
+        public readonly int ExamCount;
+
+        public readonly int CountPerExam;
+
+        private List<string[]> questions = new List<string[]>();
 
 
 
@@ -150,6 +219,7 @@ namespace exam
             #endregion
 
         }
+
 
         //生成
         public async Task Gen(ELx lx) 
@@ -224,7 +294,7 @@ namespace exam
                 text = $"<speak>{question[0]}<break time='2s' /></speak>";
                 audio.AddRange(await getTtsAsync(text, voices[0]));
 
-                text = $"<speak>{question[0]}<break time='5s' /></speak>";
+                text = $"<speak>{question[0]}<break time='10s' /></speak>";
                 audio.AddRange(await getTtsAsync(text, voices[1]));
 
                 answer.Append($"{i + 1}. {string.Join(" ", question)} ");
@@ -240,31 +310,6 @@ namespace exam
 
         }
 
-        private async Task<byte[]> getTtsAsync(string text, string voice)
-        {
-            var req = new AliyunUtil.YyhcReqest(text, voice);
-
-            string path = "Cache";
-
-            if (!Directory.Exists(path))
-            {
-                Directory.CreateDirectory(path);
-            }
-
-            string cacheFile = Path.Combine(path, req.ToString());
-
-            if (File.Exists(cacheFile))
-            {
-                return await File.ReadAllBytesAsync(cacheFile);
-            } else
-            {
-                var bs = await util.GetYyhcResultAsync(req);
-
-                await File.WriteAllBytesAsync(cacheFile, bs);
-
-                return bs;
-            }
-        }
 
         public enum ELx
         {
