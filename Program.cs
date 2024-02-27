@@ -216,6 +216,8 @@ namespace exam
                 }
             }
 
+            questions = questions.RandomSort().ToList();
+
             #endregion
 
         }
@@ -240,11 +242,11 @@ namespace exam
 
             answers = answers.Select((string r ,int i)=>
             {
-                return $"Exam {i+1}:\r\n{r}\r\n";
+                return $"Exam {i+1}:{Environment.NewLine}{r}{Environment.NewLine}";
 
             }).ToArray();
             
-            answers = new string[]{$"{path}\r\n"}.Concat(answers).ToArray();
+            answers = new string[]{$"{path}{Environment.NewLine}"}.Concat(answers).ToArray();
 
             await File.WriteAllLinesAsync(Path.Combine(path,"answer.txt"), answers);
 
@@ -260,7 +262,11 @@ namespace exam
         {
             List<byte> audio = new List<byte>();
 
-            List<string[]> _questions = this.questions.RandomSort().Take(this.CountPerExam).ToList();
+            //List<string[]> _questions = this.questions.RandomSort().Take(this.CountPerExam).ToList();
+
+            int j = ((idx - 1) * 2 + (int)lx) * this.CountPerExam % this.questions.Count;
+
+            var _questions = this.questions.Skip(j).Concat(this.questions.Take(j)).Take(this.CountPerExam).ToList();
 
             #region 导语
 
