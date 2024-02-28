@@ -1,4 +1,4 @@
-﻿using CSScripting;
+﻿
 using Flurl.Util;
 using Hungsum.MyAliyun;
 using Hungsum.Sys.Utility;
@@ -43,7 +43,6 @@ namespace exam
                     }
                 }
 
-
                 //
                 Console.Write("需要生成的测试数量[5]：");
                 int examCount = Console.ReadLine().TransInt(5);
@@ -52,24 +51,29 @@ namespace exam
                 Console.Write("每个测试的题目数[25]：");
                 int countPerExam = Console.ReadLine().TransInt(25);
 
-                Console.Write("测试类型(0 全部 1 听英语写汉语 2 听汉语写英语])：");
-                int lx = Console.ReadLine().TransInt(0);
+                StringBuilder sb = new StringBuilder("测试类型 ");
+
+                foreach (int i in Enum.GetValues(typeof(HearingExam.ELx)))
+                {
+                    sb.Append($"{i} {(HearingExam.ELx)i} ");
+                }
+
+                Console.Write(sb.ToString());
+
+
+                HearingExam.ELx lx = (HearingExam.ELx)Console.ReadLine().TransInt(0);
 
                 var exam = new HearingExam(name, files, examCount, countPerExam);
 
                 var tasks = new List<Task>();
 
-                if (lx == 1)
-                {
-                    tasks.Add(exam.Gen(HearingExam.ELx.听英语写汉语));
-                } else if (lx == 2)
-                {
-                    tasks.Add(exam.Gen(HearingExam.ELx.听英语写汉语));
-                }
-                else
+                if (lx ==  HearingExam.ELx.英语全套)
                 {
                     tasks.Add(exam.Gen(HearingExam.ELx.听英语写汉语));
                     tasks.Add(exam.Gen(HearingExam.ELx.听汉语写英语));
+                } else
+                {
+                    tasks.Add(exam.Gen(lx));
                 }
 
                 Task.WaitAll(tasks.ToArray());
@@ -207,10 +211,13 @@ namespace exam
                     {
                         result.Split('|').Run(r =>
                         {
-                            if (r.Length > 1)
-                            {
-                                questions.Add(r.Take(2).ToArray());
-                            }
+                            //if (r.Length > 1)
+                            //{
+                            //    questions.Add(r.Take(2).ToArray());
+                            //}
+
+                            questions.Add(r.Take(2).ToArray());
+
                         });
                     }
                 }
@@ -266,7 +273,7 @@ namespace exam
 
             //List<string[]> _questions = this.questions.RandomSort().Take(this.CountPerExam).ToList();
 
-            int j = ((idx - 1) * 2 + (int)lx) * this.CountPerExam % this.questions.Count;
+            int j = Math.Max(0, ((idx - 1) * 2 + (int)lx) * this.CountPerExam % this.questions.Count);
 
             var _questions = this.questions.Skip(j).Concat(this.questions.Take(j)).Take(this.CountPerExam).ToList();
 
@@ -282,13 +289,28 @@ namespace exam
 
             #region 问题
 
-            var voices = new string[] { "donna", "luca" };
+            #region 配置声音
+
+            var voices = new string[] { "zhiyuan", "zhida" };
+
+            if (lx == ELx.听英语写汉语)
+            {
+                voices = new string[] { "donna", "luca" };
+            }
+
+            #endregion
+
+
+            #region 配置问题
 
             if (lx == ELx.听汉语写英语)
             {
-                voices = new string[] { "zhiyuan", "zhida" };
-                _questions = _questions.Select(r=>r.Reverse().ToArray()).ToList();
+                _questions = _questions.Select(r => r.Reverse().ToArray()).ToList();
             }
+
+            #endregion
+
+
 
             StringBuilder answer = new StringBuilder();
 
@@ -304,6 +326,12 @@ namespace exam
 
                 text = $"<speak>{question[0]}<break time='10s' /></speak>";
                 audio.AddRange(await getTtsAsync(text, voices[1]));
+
+                if (question[0].EndsWith("_"))
+                {
+                    text = $"<speak>请写出这个词语的意思<break time='20s' /></speak>";
+                    audio.AddRange(await getTtsAsync(text, voices[1]));
+                }
 
                 answer.Append($"{i + 1}. {string.Join(" ", question)} ");
 
@@ -321,8 +349,10 @@ namespace exam
 
         public enum ELx
         {
+            英语全套 = 0,
             听英语写汉语 = 1,
-            听汉语写英语 = 2
+            听汉语写英语 = 2,
+            默写汉语 = 3,
         }
     }
 }
