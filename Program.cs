@@ -283,11 +283,11 @@ namespace exam
 
             #region 配置声音
 
-            var voices = new string[] { "zhiyuan", "zhida" };
+            var voices = new string[] { "zhiya", "zhishuo" };
 
             if (lx == ELx.听英语写汉语)
             {
-                voices = new string[] { "donna", "luca" };
+                voices = ["donna", "luca"];
             }
 
             #endregion
@@ -319,7 +319,7 @@ namespace exam
                 text = $"<speak>{question[0]}<break time='10s' /></speak>";
                 audio.AddRange(await getTtsAsync(text, voices[1]));
 
-                if (question[0].EndsWith("_"))
+                if (question.Length > 1)
                 {
                     text = $"<speak>请写出这个词语的意思<break time='20s' /></speak>";
                     audio.AddRange(await getTtsAsync(text, voices[1]));
